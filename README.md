@@ -154,7 +154,7 @@ go test ./...
 go test -coverprofile=coverage.out ./... && go tool cover -func=coverage.out | grep total
 ```
 > **📌 Скриншот покрытия > 40%**: 
-![coverage](https://github.com/jamsi-max/crypto-scan/raw/main/screenshots/coverage.png)
+![coverage](https://github.com/jamsi-max/merch-store/blob/main/screenshots/coverage.png)
 
 ### 🔍 Запуск линтера (golangci-lint)
 
