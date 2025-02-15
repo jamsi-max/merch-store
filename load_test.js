@@ -3,8 +3,8 @@ import { check, sleep } from 'k6';
 
 export let options = {
     stages: [
-      { duration: '30s', target: 100 },
-      { duration: '1m', target: 100 },
+      { duration: '30s', target: 200 },
+      { duration: '1m', target: 200 },
       { duration: '30s', target: 0 },
     ],
     thresholds: {
@@ -13,7 +13,7 @@ export let options = {
     },
   };
 
-const TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyMiwidXNlcm5hbWUiOiJ1c2VyMiIsImV4cCI6MTczOTcwMDU0Mn0.Sk_GH5t_zio6VtErzqMqn-vuPizi4x1gT7nGkpJ_Emg";
+const TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyMiwidXNlcm5hbWUiOiJ1c2VyMiIsImV4cCI6MTczOTcxNDE1Nn0.TCMRssf9W9TAs4FPa3sCII59sM8y5DMbKCcZETwMxuc";
 
 export default function () {
     let headers = { 'Authorization': TOKEN };
