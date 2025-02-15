@@ -1,0 +1,3 @@
+jsonfile: test-results.json
+format: short
+hide-summary: skipped
