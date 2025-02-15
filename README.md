@@ -155,27 +155,18 @@ curl -H "Content-Type: application/json" \
 ### Создайте и настройте файл `.env`
 
 В проекте используются следующие переменные окружения:
-``
-DB_CONTAINER_NAME=
-
-DB_USER=
-
-DB_PASS=
-
-DB_NAME=
-
-DB_HOST=
-
-DB_PORT=
-
-DATABASE_URL=
-
-DATABASE_URL_CONTAINER=
-
-APP_CONTAINER_NAME=
-
-JWT_SECRET=
-``
+```sh
+DB_CONTAINER_NAME= \
+DB_USER= \
+DB_PASS= \
+DB_NAME= \
+DB_HOST= \
+DB_PORT= \
+DATABASE_URL= \
+DATABASE_URL_CONTAINER= \
+APP_CONTAINER_NAME= \
+JWT_SECRET= \
+```
 
 ### Убедитесь, что у вас установлен Docker Compose
 
