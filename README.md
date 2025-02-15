@@ -78,7 +78,7 @@ curl -H "Authorization: Bearer <TOKEN>" -H "Content-Type: application/json" -X P
 **Пример запроса:**
 
 ```sh
-curl -H "Authorization: Bearer <TOKEN>" -X GET http://localhost:8080/api/buy/item123
+curl -H "Authorization: Bearer <TOKEN>" -X GET http://localhost:8080/api/buy/powerbank
 ```
 
 **Ответы:**
