@@ -199,7 +199,7 @@ docker compose up
 **Остановка проекта**
 
 ```sh
-docker compose up
+docker compose down
 ```
 
 ### Запуск тестов
