@@ -159,7 +159,7 @@ curl -H "Content-Type: application/json" \
 ### Клонирование репозитория
 
 ```sh
- git clone <URL_РЕПОЗИТОРИЯ>
+ git clone git@github.com:jamsi-max/merch-store.git
 ```
 
 ### Создайте и настройте файл `.env`
@@ -184,14 +184,22 @@ JWT_SECRET=super_puper_mega_secrets_key_jwt
 
 ### ▶️ Запуск сервиса
 
+**Запуск в фоновом режиме**
+
 ```sh
-docker compose up -d  # Запуск в фоновом режиме
+docker compose up -d 
 ```
 
-или
+**Запуск с выводом логов**
 
 ```sh
-docker compose up  # Запуск с выводом логов
+docker compose up
+```
+
+**Остановка проекта**
+
+```sh
+docker compose up
 ```
 
 ### Запуск тестов
