@@ -41,7 +41,7 @@ __debug_bin
 temp/
 
 # Migrations (if not stored in the repository)
-/migrations/*.sql
+#/migrations/*.sql
 
 # Auto-generated files
 *.pb.go
