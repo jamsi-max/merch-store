@@ -26,7 +26,6 @@ profile.out
 
 # Go-specific files
 /go-workspace
-/go.sum
 /vendor/
 
 # Cache and temporary files
