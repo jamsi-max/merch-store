@@ -211,7 +211,7 @@ go test ./...
 ### Запуск покрытия тестами
 
 ```sh
-go test -coverprofile=coverage.out ./... && go tool cover -func=coverage.out | grep total
+go test -covermode=atomic -coverpkg=./... -coverprofile=coverage.out ./... && go tool cover -func=coverage.out | grep total
 ```
 
 > **Покрытие > 40%**:
